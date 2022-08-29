@@ -10,11 +10,18 @@ body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  background-color: #ec4c8a;
+  background-color: #f1a1c0;
 }
 
 .hero {
   background: url('./images/Covid\ Banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-hero {
+  background: url('./images/Covid\ Banner\ Footer.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25,4 +32,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.main-bg{
+  background-color: #ec4c8a;
 }
