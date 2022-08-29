@@ -1,12 +1,18 @@
 import './App.css';
-import Header from './component/hearder';
-import ProductList from './component/productList';
+import { Routes, Route } from 'react-router-dom';
+
+import Hero from './components/Hero';
+import Home from './pages/Home';
+import Details from './pages/Details';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ProductList />
+      <Hero />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:id" element={<Details />} />
+      </Routes>
     </div>
   );
 }
