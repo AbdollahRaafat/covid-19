@@ -2,14 +2,22 @@ import { PropTypes } from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
 import { BsArrowRightCircle } from 'react-icons/bs';
+import { motion } from 'framer-motion';
 
 const Country = (props) => {
   const navigate = useNavigate();
+
   const {
     country: { Country, TotalConfirmed },
   } = props;
   return (
-    <div className="border border-pink-400 py-5 country px-8">
+    <motion.div
+      initial={{ x: '-100vw' }}
+      animate={{ x: -10 }}
+      transition={{ delay: 0.1, duration: 0.3 }}
+      whileHover={{ scale: 1.1, zIndex: 1 }}
+      className="border border-pink-400 py-5 country px-8"
+    >
       <div className="flex justify-end items-end">
         <BsArrowRightCircle
           onClick={() => navigate(`/details/${Country}`)}
@@ -28,7 +36,7 @@ const Country = (props) => {
           {TotalConfirmed}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
