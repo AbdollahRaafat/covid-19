@@ -29,7 +29,7 @@ I got the data from a free <a href="https://covid19api.com/">Covid-19 API</a> on
 
 ## Live Demo
 
-<a href="https://effervescent-puffpuff-a0122d.netlify.app/">COVID-19 Metrics Data</a>
+<a href="https://snazzy-palmier-67b9a7.netlify.app/">COVID-19 Metrics Data</a>
 
 ## Live Demo Video
 
