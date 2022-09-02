@@ -33,7 +33,7 @@ I got the data from a free <a href="https://covid19api.com/">Covid-19 API</a> on
 
 ## Live Demo Video
 
-<a href="https://www.loom.com/share/134dd6177245482ca0d1daab2a2aae28</a>
+<a href="https://www.loom.com/share/134dd6177245482ca0d1daab2a2aae28">Demo Video</a>
 
 ## Getting Started
 
